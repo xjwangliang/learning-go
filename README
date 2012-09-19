@@ -1,3 +1,31 @@
 This is a readme file!!!!!!!!!!!!!!
 
 2012-09-19 18:50
+
+
+参看文章
+https://help.github.com/articles/set-up-git
+http://www.worldhello.net/gotgithub/03-project-hosting/020-repo-operation.html
+
+前期配置：
+
+设置用户名和邮箱
+$ git config user.name ""   #最好是github帐号
+$ git config user.email ""  #与github邮件地址相同
+$ git commit --amend --reset-author -C HEAD
+
+查看提交日志
+$ git log --pretty=fuller
+
+
+$ git init
+$ touch README
+$ git add README
+$ git commit -m 'first commit'#本地提交
+
+
+$ git remote add origin https://github.com/username/Hello-World.git  # Creates a remote named "origin" pointing at your GitHub repo
+#在本地的  .git/refs/remotes/和.git/logs/refs/remotes/存在origin目录
+$ git push origin master #也可以 git push，必要时git push -f
+
+这是提交需要输入用户名密码，然后成功。
