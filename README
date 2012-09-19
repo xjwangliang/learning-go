@@ -29,3 +29,17 @@ $ git remote add origin https://github.com/username/Hello-World.git  # Creates a
 $ git push origin master #也可以 git push，必要时git push -f
 
 这是提交需要输入用户名密码，然后成功。
+
+
+创建新的分支
+
+$ git checkout -b 新分支名称   #等价于　git branch 新分支名称 + git checkout 新分支名称
+$ git add file #添加一个文件,不是必须的
+$ git commit -m "add hello1 for mark."
+$ git push -u origin 新分支名称    ＃提交；origin是先前仓库名字
+
+附加的命令
+$ git branch -r
+$ git ls-remote
+$ git branch -D 分支名　  ＃删除分支
+$ git push origin :分支名 ＃删除远程分支（不能是缺省的分支）
