@@ -1,3 +1,57 @@
 This is a readme file!!!!!!!!!!!!!!
 
 2012-09-19 18:50
+
+
+参看文章
+https://help.github.com/articles/set-up-git
+http://www.worldhello.net/gotgithub/03-project-hosting/020-repo-operation.html
+
+前期配置：
+
+设置用户名和邮箱
+$ git config user.name ""   #最好是github帐号
+$ git config user.email ""  #与github邮件地址相同
+$ git commit --amend --reset-author -C HEAD
+
+查看提交日志
+$ git log --pretty=fuller
+
+
+$ git init
+$ touch README
+$ git add README
+$ git commit -m 'first commit'#本地提交
+
+
+$ git remote add origin https://github.com/username/Hello-World.git  # Creates a remote named "origin" pointing at your GitHub repo
+#在本地的  .git/refs/remotes/和.git/logs/refs/remotes/存在origin目录
+$ git push origin master #也可以 git push，必要时git push -f
+
+这是提交需要输入用户名密码，然后成功。
+
+
+创建新的分支
+
+$ git checkout -b 新分支名称   #等价于　git branch 新分支名称 + git checkout 新分支名称
+$ git add file #添加一个文件,不是必须的
+$ git commit -m "add hello1 for mark."
+$ git push -u origin 新分支名称    ＃提交；origin是先前仓库名字
+
+附加的命令
+$ git branch -r
+$ git ls-remote
+$ git branch -D 分支名　  ＃删除分支
+$ git push origin :分支名 ＃删除远程分支（不能是缺省的分支）
+
+
+
+https://help.github.com/articles/fork-a-repo
+
+$ git remote add upstream https://github.com/octocat/Spoon-Knife.git   # Assigns the original repo to a remote called "upstream"
+
+$ git fetch upstream    # Pulls in changes not present in your local repository, without modifying your files
+
+$ git fetch upstream   # Fetches any new changes from the original repo
+
+$ git merge upstream/master   # Merges any changes fetched into your working files
