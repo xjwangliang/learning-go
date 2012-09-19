@@ -43,3 +43,15 @@ $ git branch -r
 $ git ls-remote
 $ git branch -D 分支名　  ＃删除分支
 $ git push origin :分支名 ＃删除远程分支（不能是缺省的分支）
+
+
+
+https://help.github.com/articles/fork-a-repo
+
+$ git remote add upstream https://github.com/octocat/Spoon-Knife.git   # Assigns the original repo to a remote called "upstream"
+
+$ git fetch upstream    # Pulls in changes not present in your local repository, without modifying your files
+
+$ git fetch upstream   # Fetches any new changes from the original repo
+
+$ git merge upstream/master   # Merges any changes fetched into your working files
