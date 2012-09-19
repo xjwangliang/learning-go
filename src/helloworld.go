@@ -11,6 +11,7 @@ import (
 	"myjson"
 	"interfacetest2"
 	"mybinary"
+	"data"
 )
 
 /* Print something */
@@ -284,6 +285,8 @@ func TestMax(){
 func main() { 
 	fmt.Printf("Hello, world\n")
 
+	data.Test()
+	data.Test2()
 	mybinary.Test()
 	interfacetest2.Test()
 	evenTest()
