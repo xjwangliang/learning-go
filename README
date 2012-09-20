@@ -78,3 +78,22 @@ Push an existing repository from the command line
 git remote add origin https://github.com/xjwangliang/xjwangliang.github.com.git
 git push -u origin master
 
+
+
+git init
+git remote add origin https://github.com/xjwangliang/xjwangliang.github.com.git
+
+如果是项目pages，则会有gh-pages分支
+If you generated a project page, fetch and check out the new branch:
+
+$ cd repo
+$ git fetch origin
+$ git checkout gh-pages
+
+
+如果是user　pages，则不会有gh-pages分支，直接pull
+If you generated a user page, the page code lives on the master branch instead of the gh-pages branch, so just check out master and then pull!
+
+$ cd repo
+$ git checkout master
+$ git pull origin master
