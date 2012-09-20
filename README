@@ -102,3 +102,11 @@ $ git pull origin master
 博客参考
 https://github.com/asiachrispy/achris/blob/gh-pages/index.html
 http://asiachrispy.github.com/achris/index.html
+
+
+
+# 创建文件
+touch README.md _config.yml {index,about,404}.html
+# 创建目录
+mkdir _{includes,layouts,posts,site} css img js
+vim -p {index,about,404}.html
