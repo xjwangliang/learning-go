@@ -97,3 +97,7 @@ If you generated a user page, the page code lives on the master branch instead o
 $ cd repo
 $ git checkout master
 $ git pull origin master
+
+
+博客参考
+https://github.com/asiachrispy/achris/blob/gh-pages/index.html
