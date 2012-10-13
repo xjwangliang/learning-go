@@ -83,7 +83,7 @@
       <file leaf-file-name="helloworld.go" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/helloworld.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="288" column="14" selection-start="7171" selection-end="7171" vertical-scroll-proportion="0.0">
+            <state line="287" column="0" selection-start="7147" selection-end="7147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,7 +92,7 @@
       <file leaf-file-name="data.go" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data/data.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="64" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.8734622">
+            <state line="64" column="44" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.7469244">
               <folding />
             </state>
           </provider>
@@ -101,7 +101,7 @@
       <file leaf-file-name="gointerface.go" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/interfacetest2/gointerface.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="283" column="73" selection-start="10870" selection-end="10870" vertical-scroll-proportion="0.0">
+            <state line="228" column="50" selection-start="10074" selection-end="10074" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,9 +144,9 @@
         <option value="$PROJECT_DIR$/src/myfile/myfile.go" />
         <option value="$PROJECT_DIR$/src/myjson/myjson.go" />
         <option value="$PROJECT_DIR$/src/interfacetest/MyInterface.go" />
-        <option value="$PROJECT_DIR$/src/interfacetest2/gointerface.go" />
         <option value="$PROJECT_DIR$/src/mybinary/mybinary.go" />
         <option value="$PROJECT_DIR$/src/helloworld.go" />
+        <option value="$PROJECT_DIR$/src/interfacetest2/gointerface.go" />
         <option value="$PROJECT_DIR$/src/data/data.go" />
       </list>
     </option>
@@ -155,8 +155,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="31" />
+    <option name="x" value="90" />
+    <option name="y" value="34" />
     <option name="width" value="1920" />
     <option name="height" value="1008" />
   </component>
@@ -873,7 +873,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="31" width="1920" height="1008" extended-state="0" />
+    <frame x="90" y="34" width="1920" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -891,7 +891,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.67080045" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16880342" sideWeight="0.67192787" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18482906" sideWeight="0.67192787" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32807216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1022,13 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfacetest2/gointerface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="73" selection-start="10870" selection-end="10870" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/pkg/encoding/gob/encoder.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="175" column="20" selection-start="5374" selection-end="5374" vertical-scroll-proportion="0.3321617">
@@ -1045,14 +1038,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helloworld.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="14" selection-start="7171" selection-end="7171" vertical-scroll-proportion="0.0">
+        <state line="287" column="0" selection-start="7147" selection-end="7147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interfacetest2/gointerface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="50" selection-start="10074" selection-end="10074" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/data.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="64" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.8734622">
+        <state line="64" column="44" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.7469244">
           <folding />
         </state>
       </provider>

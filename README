@@ -38,6 +38,13 @@ $ git add file #添加一个文件,不是必须的
 $ git commit -m "add hello1 for mark."
 $ git push -u origin 新分支名称    ＃提交；origin是先前仓库名字
 
+
+>>git clone git clone https://android.googlesource.com/platform/packages/apps/Gallery
+>>cd Gallery
+>> git branch -a 
+>>git checkout ics-mr0-release(or  remotes/origin/ics-mr0-release ,just example) 
+>> gitk --all &
+
 附加的命令
 $ git branch -r
 $ git ls-remote
