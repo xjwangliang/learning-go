@@ -52,7 +52,11 @@ $ git ls-remote
 $ git branch -D 分支名　  ＃删除分支
 $ git push origin :分支名 ＃删除远程分支（不能是缺省的分支）
 
-
+$git clone git clone https://android.googlesource.com/platform/packages/apps/Gallery
+$cd Gallery
+$git branch -a
+$git checkout 分支
+$gitk --all &
 
 https://help.github.com/articles/fork-a-repo
 
