@@ -45,7 +45,7 @@ $ git push -u origin 新分支名称    ＃提交；origin是先前仓库名字
 >> git branch -a 
 >>git checkout ics-mr0-release(or  remotes/origin/ics-mr0-release ,just example) 
 >> gitk --all &
-
+(refence :http://www.stackenqueue.com/questions/107/%E6%88%91%E6%80%8E%E4%B9%88%E7%94%A8git-clone-%E8%BF%9C%E7%A8%8B%E7%9A%84%E6%89%80%E6%9C%89%E5%88%86%E6%94%AF)
 附加的命令
 $ git branch -r
 $ git ls-remote
