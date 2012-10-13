@@ -6,6 +6,7 @@ This is a readme file!!!!!!!!!!!!!!
 参看文章
 https://help.github.com/articles/set-up-git
 http://www.worldhello.net/gotgithub/03-project-hosting/020-repo-operation.html
+http://gitref.org/branching/#tag
 
 前期配置：
 
@@ -62,3 +63,57 @@ $ git fetch upstream    # Pulls in changes not present in your local repository,
 $ git fetch upstream   # Fetches any new changes from the original repo
 
 $ git merge upstream/master   # Merges any changes fetched into your working files
+
+
+
+$ git pull origin master
+
+
+
+We recommend that every repository has a README, LICENSE, and .gitignore
+
+Create a new repository on the command line
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/xjwangliang/xjwangliang.github.com.git
+git push -u origin master
+Push an existing repository from the command line
+
+git remote add origin https://github.com/xjwangliang/xjwangliang.github.com.git
+git push -u origin master
+
+
+
+git init
+git remote add origin https://github.com/xjwangliang/xjwangliang.github.com.git
+
+如果是项目pages，则会有gh-pages分支
+If you generated a project page, fetch and check out the new branch:
+
+$ cd repo
+$ git fetch origin
+$ git checkout gh-pages
+
+
+如果是user　pages，则不会有gh-pages分支，直接pull
+If you generated a user page, the page code lives on the master branch instead of the gh-pages branch, so just check out master and then pull!
+
+$ cd repo
+$ git checkout master
+$ git pull origin master
+
+
+博客参考
+https://github.com/asiachrispy/achris/blob/gh-pages/index.html
+http://asiachrispy.github.com/achris/index.html
+
+
+
+# 创建文件
+touch README.md _config.yml {index,about,404}.html
+# 创建目录
+mkdir _{includes,layouts,posts,site} css img js
+vim -p {index,about,404}.html
